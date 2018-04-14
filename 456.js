@@ -1,3 +1,5 @@
 document.addEventListener('DOMContentLoaded', function (ev) {
-	alert "AAAAAAAAAAAAAA";
+	document.querySelector('#btn').addEventListener('click', function (ev) {
+ 		alert("AAAAAAAAAAAAAA");
+	});
 });
